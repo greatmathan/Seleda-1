@@ -28,7 +28,7 @@ public class Window {
 		for (String newwindows : handles) {
 			Driver.switchTo().window(newwindows);
 
-		}
+		}//check for commit change
 		Driver.close();
 		// second window Switch to oldwindow
 		Driver.switchTo().window(oldwindow);
